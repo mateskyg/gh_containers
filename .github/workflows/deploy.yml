@@ -20,6 +20,7 @@ jobs:
       # MONGODB_CLUSTER_ADDRESS: cluster0.8nhq0lb.mongodb.net
       # MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       # MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+      # These settings for running the mongodb service below
       MONGODB_CONNECTION_PROTOCOL: mongodb
       MONGODB_CLUSTER_ADDRESS: mongodb
       MONGODB_USERNAME: root
